@@ -40,4 +40,122 @@ nav li a{
     font-weight: 600px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
+
+#banner{
+    background-image: url("assets/hero-bg.png");
+    padding: 70px 120px 134px 120px;
+}
+
+.banner-text{
+    align-items: center;
+    text-align: center;
+}
+
+.early-box{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    width: 229px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    color: #30B868;
+    padding: 8px 12px;
+    font-weight: 500px;
+}
+.banner-text h1{
+    font-size: 72px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.banner-text span{
+    color: #30B868;
+}
+
+.banner-text .description{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+#banner button{
+    margin-right: 16px;
+}
+
+.no-bg{
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+#step-container{
+    padding: 0px 120px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.step-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* height: 130px; */
+    margin-bottom: 44px;
+}
+
+.step-title h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.step-title p{
+    color: #627382;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-container .card{
+    width: 322px;
+    padding: 24px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px -2px 2px 0px #000000;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card .card-img{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    /* padding: 14px 13px; */
+    border-radius: 100%;
+}
+
+.card-img img{
+    align-items: center;
+    text-align: center;
+    width: 32px;
+    padding: 14px 13px;
+}
+
+.card h2{
+    font-size: 24px;
+}
+
+.card p{
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 21px;
+}
+
+
