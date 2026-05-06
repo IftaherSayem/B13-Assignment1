@@ -41,6 +41,8 @@ nav li a{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    text-align: center;
+    align-items: center;
 }
 
 #banner{
@@ -189,6 +191,7 @@ nav li a{
 .headline{
     font-weight: 500;
     padding-bottom: 16px;
+    align-items: center;
 }
 
 #access{
@@ -203,6 +206,7 @@ nav li a{
     padding: 80px 40px;
     border-radius: 12px;
 }
+
 
 .access-container h2{
     font-size: 40px;
