@@ -65,8 +65,38 @@ nav li a{
     color: #30B868;
     padding: 8px 12px;
     font-weight: 500px;
+    display: flex;
+    gap: 6px;
+}
+.main {
+  width: 16px;
+  height: 16px;
+  background: #dbe7de;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.middle {
+  width: 12px;
+  height: 12px;
+  background: #b8d1bf;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  width: 6px;
+  height: 6px;
+  background: #4f9d6a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .banner-text h1{
     font-size: 72px;
     color: #FFFFFF;
